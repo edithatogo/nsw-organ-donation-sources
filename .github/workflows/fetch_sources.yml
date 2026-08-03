@@ -1,0 +1,53 @@
+name: Fetch NSW Organ Donation Sources
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 22 * * 0'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create directories
+        run: |
+          mkdir -p data/raw data/html data/meta
+
+      - name: Fetch source list and documents
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, urllib.request
+
+          sources = json.load(open('sources/nsw_organ_donation_sources_manifest.json'))['items']
+          root = pathlib.Path('.')
+          for item in sources:
+              title = item['title']
+              url = item['download_url']
+              ext = 'pdf' if '.pdf' in url.lower() else 'html'
+              safe = ''.join(c.lower() if c.isalnum() else '_' for c in title).strip('_')
+              target = root / ('data/raw' if ext == 'pdf' else 'data/html') / f'{safe}.{ext}'
+              try:
+                  with urllib.request.urlopen(url, timeout=60) as r:
+                      content = r.read()
+                  target.write_bytes(content)
+              except Exception:
+                  target = root / 'data/meta' / f'{safe}.txt'
+                  target.write_text(f'Could not fetch {url}\n')
+          PY
+
+      - name: Commit fetched files
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add data/ .github/workflows/fetch_sources.yml
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Fetch NSW organ donation sources"
+            git push
+          fi
