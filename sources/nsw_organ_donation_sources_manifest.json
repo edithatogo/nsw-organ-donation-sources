@@ -1,0 +1,127 @@
+{
+  "repository": "edithatogo/nsw-organ-donation-sources",
+  "generated": "2026-08-03",
+  "notes": "Primary NSW organ donation sources with PDF links where available and HTML fallbacks where needed.",
+  "items": [
+    {
+      "title": "Human Tissue Act 1983 No 164",
+      "type": "legislation",
+      "status": "current",
+      "primary_url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1983-164",
+      "download_url": "https://legislation.nsw.gov.au/view/pdf/inforce/current/act-1983-164",
+      "format_preference": ["pdf", "html"]
+    },
+    {
+      "title": "Human Tissue Regulation 2020",
+      "type": "legislation",
+      "status": "current",
+      "primary_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/sl-2020-0454",
+      "download_url": "https://legislation.nsw.gov.au/view/whole/pdf/inforce/current/sl-2020-0454",
+      "format_preference": ["pdf", "html"]
+    },
+    {
+      "title": "Human Tissue Amendment (Ante-mortem Interventions) Act 2024 No 13",
+      "type": "legislation",
+      "status": "current",
+      "primary_url": "https://legislation.nsw.gov.au/view/pdf/asmade/act-2024-13",
+      "download_url": "https://legislation.nsw.gov.au/view/pdf/asmade/act-2024-13",
+      "format_preference": ["pdf"]
+    },
+    {
+      "title": "PD2025_039 Organ and Tissue Donation, Use and Retention",
+      "type": "policy directive",
+      "status": "current",
+      "primary_url": "https://www1.health.nsw.gov.au/pds/Pages/doc.aspx?dn=PD2025_039",
+      "download_url": "https://www1.health.nsw.gov.au/pds/ActivePDSDocuments/PD2025_039.pdf",
+      "format_preference": ["pdf", "html"]
+    },
+    {
+      "title": "GL2023_013 Management of the Potential Organ and Tissue Donor following Neurological Determination of Death",
+      "type": "guideline",
+      "status": "current",
+      "primary_url": "https://www1.health.nsw.gov.au/pds/Pages/doc.aspx?dn=GL2023_013",
+      "download_url": "https://www1.health.nsw.gov.au/pds/ActivePDSDocuments/GL2023_013.pdf",
+      "format_preference": ["pdf", "html"]
+    },
+    {
+      "title": "PD2022_036 Living Kidney Donation and Transplantation",
+      "type": "policy directive",
+      "status": "current",
+      "primary_url": "https://www1.health.nsw.gov.au/pds/Pages/doc.aspx?dn=PD2022_036",
+      "download_url": "https://www1.health.nsw.gov.au/pds/Pages/doc.aspx?dn=PD2022_036",
+      "format_preference": ["html"]
+    },
+    {
+      "title": "PD2023_012 Designated Officer",
+      "type": "policy directive",
+      "status": "current",
+      "primary_url": "https://www1.health.nsw.gov.au/pds/Pages/doc.aspx?dn=PD2023_012",
+      "download_url": "https://www1.health.nsw.gov.au/pds/Pages/doc.aspx?dn=PD2023_012",
+      "format_preference": ["html"]
+    },
+    {
+      "title": "Consent to Medical and Healthcare Treatment Manual",
+      "type": "manual",
+      "status": "current",
+      "primary_url": "https://www.health.nsw.gov.au/policies/manuals/Publications/consent-to-medical-healthcare-treatment.PDF",
+      "download_url": "https://www.health.nsw.gov.au/policies/manuals/Publications/consent-to-medical-healthcare-treatment.PDF",
+      "format_preference": ["pdf"]
+    },
+    {
+      "title": "Patient Matters Manual – Chapter 26 Tissue and Organ",
+      "type": "manual",
+      "status": "current",
+      "primary_url": "https://www.health.nsw.gov.au/policies/manuals/Documents/pmm-26.pdf",
+      "download_url": "https://www.health.nsw.gov.au/policies/manuals/Documents/pmm-26.pdf",
+      "format_preference": ["pdf"]
+    },
+    {
+      "title": "Organ donation after circulatory death certification form",
+      "type": "form",
+      "status": "current",
+      "primary_url": "https://www.health.nsw.gov.au/organdonation/Documents/organ-donation-circ-death.pdf",
+      "download_url": "https://www.health.nsw.gov.au/organdonation/Documents/organ-donation-circ-death.pdf",
+      "format_preference": ["pdf"]
+    },
+    {
+      "title": "Human tissue – NSW Health",
+      "type": "information page",
+      "status": "current",
+      "primary_url": "https://www.health.nsw.gov.au/humantissue/Pages/default.aspx",
+      "download_url": "https://www.health.nsw.gov.au/humantissue/Pages/default.aspx",
+      "format_preference": ["html"]
+    },
+    {
+      "title": "Human tissue not for transplantation – NSW Health",
+      "type": "information page",
+      "status": "current",
+      "primary_url": "https://www.health.nsw.gov.au/humantissue/Pages/not-for-transplantation.aspx",
+      "download_url": "https://www.health.nsw.gov.au/humantissue/Pages/not-for-transplantation.aspx",
+      "format_preference": ["html"]
+    },
+    {
+      "title": "Frequently asked questions about body donation",
+      "type": "information page",
+      "status": "current",
+      "primary_url": "https://www.health.nsw.gov.au/humantissue/Pages/anatomy-public.aspx",
+      "download_url": "https://www.health.nsw.gov.au/humantissue/Pages/anatomy-public.aspx",
+      "format_preference": ["html"]
+    },
+    {
+      "title": "Organ and tissue donation FAQs",
+      "type": "information page",
+      "status": "current",
+      "primary_url": "https://www.health.nsw.gov.au/organdonation/Pages/faq-transplantation.aspx",
+      "download_url": "https://www.health.nsw.gov.au/organdonation/Pages/faq-transplantation.aspx",
+      "format_preference": ["html"]
+    },
+    {
+      "title": "Organ donation after circulatory death (DCD)",
+      "type": "information page",
+      "status": "current",
+      "primary_url": "https://www.health.nsw.gov.au/organdonation/Pages/donation-following-circulatory-death.aspx",
+      "download_url": "https://www.health.nsw.gov.au/organdonation/Pages/donation-following-circulatory-death.aspx",
+      "format_preference": ["html"]
+    }
+  ]
+}
