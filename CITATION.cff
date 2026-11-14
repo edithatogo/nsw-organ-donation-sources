@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: If you use this repository, please cite it using the metadata in this file. This
+  citation describes the source collection; cite individual source documents separately.
+title: nsw-organ-donation-sources
+authors:
+- name: nsw-organ-donation-sources project
+type: dataset
+url: https://github.com/edithatogo/nsw-organ-donation-sources
